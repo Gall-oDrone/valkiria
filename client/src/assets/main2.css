@@ -1,0 +1,42 @@
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent;
+-webkit-touch-callout: none;
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+
+.body {
+font-family: ProximaNova,sans-serif;
+line-height: 1.3125;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+word-wrap: break-word;
+}
+
+.aside-container {
+    min-width: 325px;
+    max-width: 375px;
+    height: 100%;
+    flex-direction: column;
+    flex-basis: 25%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.main-container {
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    flex: 1;
+    background-color: #f5f7fa;
+    border-left-width: 1px;
+    border-color: #e0e4e9;
+    border-style: solid;
+}

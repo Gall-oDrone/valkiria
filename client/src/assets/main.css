@@ -1,0 +1,471 @@
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent;
+-webkit-touch-callout: none;
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+
+.body {
+font-family: ProximaNova,sans-serif;
+line-height: 1.3125;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+word-wrap: break-word;
+}
+
+    #content {
+        height: 100%;
+    }
+
+        .App-expand {
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+            .App__body-H(100%)-Pos(r)-Z(0){
+
+            }
+            .D(f) Fld(r) Flx($flx1) H(100%) desktop Ov(h){
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+            }
+                /*First Column */
+                .H(100%) Fld(c) Pos(r) Fxg(0) Fxs(0) Flxb(25%) Miw(325px) Maw(375px){
+                    min-width: 325px;
+                    max-width: 375px;
+                    height: 100%;
+                    flex-direction: column;
+                    flex-basis: 25%;
+                    flex-shrink: 0;
+                    flex-grow: 0;
+                }
+                    .desktopNavbar Pos(r) Z(2) Trsdu($normal) CenterAlign Bg($primary-gradient){
+                        height: 73px;
+                        box-shadow: 0 1px 8px 0 rgba(0,17,25,.27);
+                        /* height: 60px; */
+                        z-index: 2;
+                        transition-duration: .25s;
+                        position: relative;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                        .active .active_D\(f\), .D\(f\), .CenterAlign {
+                            display: flex;
+                        }
+                        .Bg\(\$primary-gradient\) {
+                            background: linear-gradient(262deg, #ff7854, #fd267d);
+                        }
+
+                        .H(24px){
+                            height: 24px;
+                        }
+                            focus-outline-style Pos(a) Trsdu($normal) Start(16px) Op(1){
+                                transition-duration: .25s;
+                                position: absolute;
+                                opacity: 1;
+                                left: 16px;
+                                text-decoration: none;
+                                color: #2c2c2c;
+                            }
+
+                            [tabindex], a, area, button, input, label, select, summary, textarea {
+                                touch-action: manipulation;
+                            }
+                        .Pos(a) D(f) Ai(c) C(#fff) Trsdu($normal) T(50%) Fz($m) Fz($responsiveLarge)--m Fz($ml)--l Whs(nw) Start(50%) Translate(-50%,-50%) focus-outline-style{
+                            .Fz\(\$ml\)--l {
+                                font-size: 2.4rem;
+                            }
+                            .Whs\(nw\), .Ell {
+                                white-space: nowrap;
+                            }
+                            .Trsdu\(\$normal\) {
+                                transition-duration: .25s;
+                            }
+                            .Translate\(-50\%\,-50\%\), .CenterAlignOverlay {
+                                transform: translate(-50%, -50%);
+                            }
+                            .Pos\(a\), .StretchedBox, .CenterAlignOverlay {
+                                position: absolute;
+                            }
+                            .Start\(50\%\) {
+                                left: 50%;
+                            }
+                            .T\(50\%\), .CenterAlignOverlay {
+                                top: 50%;
+                            }
+                            .Fz\(\$m\) {
+                                font-size: 2rem;
+                            }
+                            .Ai\(c\), .CenterAlign {
+                                align-items: center;
+                            }
+                            .active .active_D\(f\), .D\(f\), .CenterAlign {
+                                display: flex;
+                            }
+                            .C\(\#fff\) {
+                                color: #fff;
+                            }
+
+                        }
+                            .desktopNavbar__avatar D(ib) Va(m) Bdw(2px) Bdc(#fff) Bgc(#fff) Bds(s) Mend(10px) Mend(16px)--l Sq(36px) Pos(r) Bgc($c-placeholder) Bdrs(50%){
+
+                            }
+                                .D(b) Pos(r) Expand Bdrs(50%){
+                                    background-image: url("https://images-ssl.gotinder.com/5ea2591f1c617601007d485c/172x216_cda0d438-f14f-4011-a679-aab9595f08a5.jpg");
+                                    background-position: 50% 61.3636%;
+                                    background-size: auto 125.581%;
+
+                                }
+                                    .Fz\(\$ml\)--l {
+                                        font-size: 2.4rem;
+                                    }
+                                    .Whs\(nw\), .Ell {
+                                        white-space: nowrap;
+                                    }
+                                    .Fz\(\$m\) {
+                                        font-size: 2rem;
+                                    }
+                                    .C\(\#fff\) {
+                                        color: #fff;
+                                    }
+                            .Fw($regular) D(ib) Va(m) M(0) Fz($inherit){
+
+                            }
+
+                        .workmodeBtn Whs(nw) Pos(a) End(24px) H(36px) Lh(1em) Bdrs(36px) Bdw(2px) Bdc($c-work-mode-bd) Bds(s) Cur(p) Ov(h) C(t) Maw(36px) Px(8px) C(#fff):h--xl Maw(152px):h--xl Px(12px):h--xl Op(0) V(h) focus-button-style{
+                            .workmodeBtn {
+                                transition: max-width .3s ease,padding .3s ease,color .15s ease 0s,opacity .25s ease,visibility .25s;
+                            }
+                            .Whs\(nw\), .Ell {
+                                white-space: nowrap;
+                            }
+                            .V\(h\) {
+                                visibility: hidden;
+                            }
+                            .Pos\(a\), .StretchedBox, .CenterAlignOverlay {
+                                position: absolute;
+                            }
+                            .Px\(8px\), .Pend\(8px\) {
+                                padding-right: 8px;
+                            }
+                            .Px\(8px\) {
+                                padding-left: 8px;
+                            }
+                            .Ov\(h\), .Ell, .Hidden, [class*="LineClamp"] {
+                                overflow: hidden;
+                            }
+                            .active .active_Op\(0\), .Op\(0\) {
+                                opacity: 0;
+                            }
+                            .End\(24px\) {
+                                right: 24px;
+                            }
+                            .Maw\(36px\) {
+                                max-width: 36px;
+                            }
+                            .Lh\(1em\) {
+                                line-height: 1em;
+                            }
+                            .H\(36px\), .Sq\(36px\) {
+                                height: 36px;
+                            }
+                            .Cur\(p\), .StyledButton {
+                                cursor: pointer;
+                            }
+                            .C\(t\), .TextGradient\(\$green-gradient-diagonal\), .TextGradient\(\$t-gold-gradient\) {
+                                color: transparent;
+                            }
+                            .Bdrs\(36px\) {
+                                border-radius: 36px;
+                            }
+                            .Bdw\(2px\), .InputField {
+                                border-width: 2px;
+                            }
+                            .Bdc\(\$c-work-mode-bd\) {
+                                border-color: rgba(245,247,250,0.55);
+                            }
+                            .Bd, .Bds\(s\), .BdY, .BdT, .BdEnd, .BdB, .BdStart, .InputField {
+                                border-style: solid;
+                            }
+                            [tabindex], a, area, button, input, label, select, summary, textarea {
+                                touch-action: manipulation;
+                            }
+                            [type="button"], [type="reset"], [type="submit"], button {
+                                -webkit-appearance: button;
+                            }
+                            button, select {
+                                text-transform: none;
+                            }
+                            button, input {
+                                overflow: visible;
+                            }
+                            button, input, select, textarea {
+                                background-color: initial;
+                                border-style: none;
+                                color: inherit;
+                                font-family: inherit;
+                                font-size: inherit;
+                                line-height: inherit;
+                            }
+                            button, input, optgroup, select, textarea {
+                                margin: 0;
+                            }
+                        }
+                            .Whs(nw) Mstart(10px) Mend(10px) D(i) Fz($3xs) Fw($bold) Tt(u){
+                                white-space: nowrap;
+                                .Tt\(u\) {
+                                    text-transform: uppercase;
+                                }
+                                .Mx\(10px\), .Mx\(10px\)--ms, .Mend\(10px\) {
+                                    margin-right: 10px;
+                                }
+                                .Mx\(10px\), .Mx\(10px\)--ms, .Mstart\(10px\) {
+                                    margin-left: 10px;
+                                }
+                                .Fz\(\$3xs\) {
+                                    font-size: 1rem;
+                                }
+                                .Fw\(\$bold\) {
+                                    font-weight: 800;
+                                }
+                                .D\(i\) {
+                                    display: inline;
+                                }
+                            }
+                    .Pos(r) NetHeight(100%,$desktop-navbar-height) NetHeight(100%,$tablet-navbar-height)--m{
+                        .NetHeight\(100\%\,\$desktop-navbar-height\) {
+                            height: calc(100% - 73px);
+                            position: relative;
+                        }
+                    }
+                        .H(100%){
+                            .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                height: 100%;
+                            }
+                        }
+                            .H(100%){
+                                .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                    height: 100%;
+                                }
+                            }
+                                #settings{
+                                    .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                        height: 100%;
+                                    }
+                                }
+                                    .H(100%){
+                                        .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                            height: 100%;
+                                        }
+                                    }
+                                        .Ov(h) Bgc($c-bg) menu Pos(r) H(100%){
+                                            .Pos\(r\), .StyledButton {
+                                                position: relative;
+                                            }
+                                            .Ov\(h\), .Ell, .Hidden, [class*="LineClamp"] {
+                                                overflow: hidden;
+                                            }
+                                            .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                                height: 100%;
+                                            }
+                                            .Bgc\(\$c-bg\), .Bgc\(\$c-divider-lite\), .Bgc\(\$c-lighter-bluegray\), .Bgc\(\$c-placeholder\) {
+                                                background-color: #f5f7fa;
+                                            }
+                                        }
+                                            .menu__content Bgc($c-bg) Fz($responsiveLarge)--m H(100%) Ovs(touch) Ovx(h) Ovy(s) Ovsby(n) Pb(50px){
+                                                .Ovsby\(n\) {
+                                                    overscroll-behavior-y: none;
+                                                }
+                                                .Pb\(50px\) {
+                                                    padding-bottom: 50px;
+                                                }
+                                                .Ovs\(touch\) {
+                                                    -webkit-overflow-scrolling: touch;
+                                                }
+                                                .Ovy\(s\) {
+                                                    overflow-y: scroll;
+                                                }
+                                                .Ovx\(h\) {
+                                                    overflow-x: hidden;
+                                                }
+                                                .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                                    height: 100%;
+                                                }
+                                                .Bgc\(\$c-bg\), .Bgc\(\$c-divider-lite\), .Bgc\(\$c-lighter-bluegray\), .Bgc\(\$c-placeholder\) {
+                                                    background-color: #f5f7fa;
+                                                }
+                                            }
+                                                .settings__tinderPlusContainer D(f) Ai(c) Trsdu($normal) Px(24px)--ml Pt(24px)--ml Px(12px)--s Pt(12px)--s{
+                                                    .Pt\(24px\)--ml {
+                                                        padding-top: 24px;
+                                                    }
+                                                    .Px\(24px\)--ml, .Pend\(24px\)--ml {
+                                                        padding-right: 24px;
+                                                    }
+                                                    .Px\(24px\)--ml {
+                                                        padding-left: 24px;
+                                                    }
+                                                    .Trsdu\(\$normal\) {
+                                                        transition-duration: .25s;
+                                                    }
+                                                    .Ai\(c\), .CenterAlign {
+                                                        align-items: center;
+                                                    }
+                                                    .active .active_D\(f\), .D\(f\), .CenterAlign {
+                                                        display: flex;
+                                                    }
+                                                }
+
+                                                    .D(if) Ai(c) Ov(h) Expand P(16px) Bdrs(8px) Bxsh($bxsh-btn) Cur(p) Ta(c) Fld(c) Jc(c) focus-button-style Bgc(#fff) a{
+                                                        .W\(100\%\), .Row, .Expand {
+                                                            width: 100%;
+                                                        }
+                                                        .Ta\(c\) {
+                                                            text-align: center;
+                                                        }
+                                                        .P\(16px\), .P\(16px\)--ms {
+                                                            padding: 16px;
+                                                        }
+                                                        .Ov\(h\), .Ell, .Hidden, [class*="LineClamp"] {
+                                                            overflow: hidden;
+                                                        }
+                                                        .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                                            height: 100%;
+                                                        }
+                                                        .Jc\(c\), .CenterAlign {
+                                                            justify-content: center;
+                                                        }
+                                                        .Ai\(c\), .CenterAlign {
+                                                            align-items: center;
+                                                        }
+                                                        .Fld\(c\), .Fxd\(c\) {
+                                                            flex-direction: column;
+                                                        }
+                                                        .D\(if\) {
+                                                            display: inline-flex;
+                                                        }
+                                                        .Cur\(p\), .StyledButton {
+                                                            cursor: pointer;
+                                                        }
+                                                        .Bxsh\(\$bxsh-btn\) {
+                                                            box-shadow: 0 2px 6px 0 rgba(112,125,134,0.14);
+                                                        }
+                                                        .Bgc\(\#fff\) {
+                                                            background-color: #fff;
+                                                        }
+                                                        .Bdrs\(8px\), .InputField {
+                                                            border-radius: 8px;
+                                                        }
+                                                        a {
+                                                            text-decoration: none;
+                                                            color: #2c2c2c;
+                                                        }
+                                                        [tabindex], a, area, button, input, label, select, summary, textarea {
+                                                            touch-action: manipulation;
+                                                        }
+                                                    }
+
+
+                /*Second Column */
+                .H(100%) Ov(h) Pos(r) Bgc($c-bg) Z(1) Flx($flx1) BdStart Bdc($c-light-bluegray){
+                    .BdStart {
+                        border-right-width: 0;
+                    }
+                    .BdEnd, .BdB, .BdStart {
+                        border-top-width: 0;
+                    }
+                    .BdT, .BdEnd, .BdStart {
+                        border-bottom-width: 0;
+                    }
+                    .Z\(1\) {
+                        z-index: 1;
+                    }
+                    .Pos\(r\), .StyledButton {
+                        position: relative;
+                    }
+                    .Ov\(h\), .Ell, .Hidden, [class*="LineClamp"] {
+                        overflow: hidden;
+                    }
+                    .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                        height: 100%;
+                    }
+                    .Flx\(\$flx1\) {
+                        flex: 1;
+                    }
+                    .Bgc\(\$c-bg\), .Bgc\(\$c-divider-lite\), .Bgc\(\$c-lighter-bluegray\), .Bgc\(\$c-placeholder\) {
+                        background-color: #f5f7fa;
+                    }
+                    .Bdstartw\(1px\), .BdStart {
+                        border-left-width: 1px;
+                    }
+                    .Bdc\(\$c-light-bluegray\) {
+                        border-color: #e0e4e9;
+                    }
+                    .Bd, .Bds\(s\), .BdY, .BdT, .BdEnd, .BdB, .BdStart, .InputField {
+                        border-style: solid;
+                    }
+                }
+                    .H(100%){
+                        .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                            height: 100%;
+                        }
+                    }
+                        .H(100%){
+                            .H\(100\%\), .H\(100\%\)--maxc, .Expand {
+                                height: 100%;
+                            }
+                        }
+                            .Bgc($c-bg) Bgc(#fff)--s H(100%)--s CenterAlign--ml Fld(c)--ml H(100vh)--ml{
+                                .H\(100vh\)--ml {
+                                    height: 100vh;
+                                }
+                                .Jc\(c\)--ml, .CenterAlign--ml {
+                                    justify-content: center;
+                                }
+                                .Ai\(c\)--ml, .CenterAlign--ml {
+                                    align-items: center;
+                                }
+                                .Fld\(c\)--ml {
+                                    flex-direction: column;
+                                }
+                                .D\(f\)--ml, .CenterAlign--ml {
+                                    display: flex;
+                                }
+                                .Bgc\(\$c-bg\), .Bgc\(\$c-divider-lite\), .Bgc\(\$c-lighter-bluegray\), .Bgc\(\$c-placeholder\) {
+                                    background-color: #f5f7fa;
+                                }
+                            }
+                                .profileCard Pos(r) D(f) Ai(c) Fld(c) Expand--s{
+                                    .profileCard {
+                                        width: 375px;
+                                        height: 667px;
+                                        max-height: calc(100vh - 44px);
+                                        min-height: 375px;
+                                    }
+                                    .profileCard {
+                                        width: 375px;
+                                        height: 667px;
+                                        max-height: calc(100vh - 44px);
+                                        min-height: 375px;
+                                    }
+                                    .Pos\(r\), .StyledButton {
+                                        position: relative;
+                                    }
+                                    .Ai\(c\), .CenterAlign {
+                                        align-items: center;
+                                    }
+                                    .Fld\(c\), .Fxd\(c\) {
+                                        flex-direction: column;
+                                    }
+                                    .active .active_D\(f\), .D\(f\), .CenterAlign {
+                                        display: flex;
+                                    }
+                                }
+
+                    #modal-manager-canvas{
+
+                    }
